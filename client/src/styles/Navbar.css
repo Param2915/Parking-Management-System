@@ -10,14 +10,14 @@ body {
     display: flex;
     border: 1px solid white;
     align-items: center;
-    padding: 8px 24px;
+    padding: 8px 24px; 
     font-size: 1.2em;
     position: sticky;
     top: 0;
   }
   
   .home {
-    margin: 0 auto;
+    margin: 0 ;
   }
   
   ul {
