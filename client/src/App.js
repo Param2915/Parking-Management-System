@@ -19,10 +19,12 @@ function App() {
           <Route path="/" element={<Booking />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/parking" element={<ParkingSpace />} />
+          
           <Route path="/wallet" element={<Wallet />} />
+          
           <Route path="/myaccount" element={<MyAccount />}/>
         </Routes>
+        {<ParkingSpace />} 
         {/* <Footer /> */}
       </div>
     </Router>
